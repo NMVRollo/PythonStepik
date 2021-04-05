@@ -1,9 +1,4 @@
-n = int(input())
-
-binary = ''
-
-while n > 0:
-    binary += str(n%2)
-    n//= 2
-
-print(binary[::-1])
+s = input()
+last_idx = len(s) - s[::-1].find('h') - 1
+first_idx = s.find('h')
+print(s[:first_idx+1] + s[first_idx+1:last_idx][::-1] + s[last_idx:])

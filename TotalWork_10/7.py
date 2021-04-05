@@ -1,12 +1,6 @@
 s = input()
-
-isDigit = False
-
-for elem in s:
-    if elem.isdigit():
-        isDigit = True
-        
-if isDigit:
-    print('Цифра')
-else:
-    print('Цифр нет')
+new_str = ''
+for i in range(len(s)):
+    if i%3!=0:
+        new_str += s[i]
+print(new_str)

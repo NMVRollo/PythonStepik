@@ -1,4 +1,2 @@
-s = input()
-
-for i in range(0, len(s), 2):
-    print(s[i])
+s = 'Python rocks!'
+print(s[1:5])
