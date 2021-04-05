@@ -1,0 +1,13 @@
+```
+6
+```
+True
+```
+False
+```
+8
+```
+I learn Python language
+```
+123cd123123a
+```
